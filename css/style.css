@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1100px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    background-color: #EEEFF1;
+}
+
+.img_logo{
+    width: 96px;
+    height: 60px;
+    padding-left: 150px;
+    padding-top: 25px;
+}
+
+.logo{
+    display: inline-block;
+    float: left;
+}
+
+.main-list{
+    display: inline-block;
+}
+
+.main-items{
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+li{
+    display: inline-block;
+    padding-left: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #34547A;
+}
+
+ .centre_image{
+    width: 250px;
+    height: 150px;
+    padding-top: 150px;
+} 
+
+.centre_img{
+    display: inline-block;
+    float: left;
+}
+
+.centre_block{
+    display: inline-block;
+}
+
+h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    padding-left: 100px;
+    padding-top: 90px; 
+}
+
+.centre_text{
+    padding-top: 10px;
+    padding-left: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 430px;
+}
+
+.lorem_text{
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 430px;
+    margin: 40px auto 80px auto;
+}
+
+.button{
+    margin: 20px 0px 100px 100px;
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    border: none;
+}
+
+.button:hover {
+    cursor: pointer;
+ }
+
+.about_me{
+    text-align: center;
+    margin-top: 70px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.projects{
+    background: #34547A;
+}
+
+.project_items:first-child{
+    padding-left: 0px;
+}
+
+.project_block{
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.project_items{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.project_img{
+    display: inline-block;
+    float: left;
+}
+
+.project_block_text{
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.project_header{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.project_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.skills_list{
+    padding-bottom: 130px;
+}
+
+.skill_text_block{
+    display: inline-block;
+    padding-left: 150px;
+    padding-top: 90px;
+}
+
+.line_1{
+    position: absolute;
+    width: 350px;
+    height: 3px;
+    background: #C4C4C4;
+    margin-top: 15px;
+}
+
+.line_2{
+    position: absolute;
+    width: 300px;
+    height: 3px;
+    background: #34547A;
+    margin-top: 15px;
+}
+
+.skill_img_block{
+    display: inline-block;
+    float: right;
+    width: 405px;
+    height: 300px;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
+.my_skill{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.skill_item{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272; 
+    padding-top: 40px;   
+}
+
+.skill_img{
+    width: 455px;
+    height: 350px;
+}
+
+.work{
+    background: #EEEFF1;
+    padding-bottom: 50px;
+}
+
+.work_header{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.work_text{
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 430px;
+    margin: 40px auto;
+}
+
+.work_img{
+    height: 450px;
+    width: 900px;
+    display: block;
+    margin: 0px auto;
+}
+
+.work_img_block{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.play_button{
+    position: absolute;
+}
+
+.pict_block{
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.pict_view{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+.view_img{
+    position: absolute;
+}
+
+.pict_item{
+    width: 275px;
+    height: 275px;
+    float: left;
+}
+
+.microsoft_block{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.microsoft_img{
+    display: inline-block;
+    width: 225px;
+    height: 90px;
+    padding-left: 20px;
+}
+
+#img{
+    padding-left: 0px;
+}
+
+.form{
+    background: #EEEFF1;
+    padding-bottom: 50px;
+}
+
+.form_header_title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.form_header_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin: 40px auto;
+    width: 430px;
+}
+
+form{
+    width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+input[name="name"], input[name="email"]{
+    width: 190px;
+    height: 40px;
+    margin: 0px 10px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+textarea{
+    width: 410px;
+    margin-top: 20px;
+    height: 150px;
+    resize: none;
+    padding: 10px;
+}
+
+::placeholder{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+}
+
+input[name="text"]{
+    width: 430px;
+    margin-top: 20px;
+    height: 150px;
+}
+
+input[type="submit"]{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    margin-top: 30px;
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    color: #FFFFFF;
+    border: none;
+}
+
+.footer{
+    background: #34547A;
+}
+
+.footer_text_block{
+    display: inline-block;
+    padding: 30px 0px 20px 150px;
+}
+
+.footer_name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.footer_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.footer_icon{
+    float: right;
+    padding: 40px 200px 0px 0px;
+}
+
+.VKlogo{
+    padding-left: 20px;
+    width: 40px;
+    height: 40px;
+}
