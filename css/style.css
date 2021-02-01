@@ -3,25 +3,48 @@
     padding: 0;
 }
 
+.scrollup{
+    width:40px;
+    height:40px;
+    opacity:0.3;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    display:none;
+    text-indent:-9999px;
+    background: url('../img/icon_top.png') no-repeat;
+}
+
 body{
     max-width: 1100px;
     margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .header{
     background-color: #EEEFF1;
 }
 
+.header_menu{
+    background-color: #EEEFF1;
+}
+
+.header_block{
+    padding-top: 80px;
+    padding-left: 150px;
+}
+
 .img_logo{
     width: 96px;
     height: 60px;
-    padding-left: 150px;
-    padding-top: 25px;
+    padding: 20px 0px 10px 150px;
 }
 
 .logo{
-    display: inline-block;
     float: left;
 }
 
@@ -30,30 +53,30 @@ body{
 }
 
 .main-items{
-    padding-top: 50px;
+    padding-top: 40px;
     padding-left: 200px;
+    
+}
+
+li:hover{
+    font-weight: 500;
+    color: #34547A;
 }
 
 li{
     display: inline-block;
     padding-left: 20px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
     letter-spacing: 0.1em;
-    color: #34547A;
+    color: #000;
 }
 
  .centre_image{
-    width: 250px;
-    height: 150px;
-    padding-top: 150px;
+    width: 350px;
+    height: 200px;
+    padding-top: 130px;
 } 
 
 .centre_img{
-    display: inline-block;
     float: left;
 }
 
@@ -62,8 +85,6 @@ li{
 }
 
 h1{
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 48px;
     line-height: 79px;
@@ -74,25 +95,16 @@ h1{
 .centre_text{
     padding-top: 10px;
     padding-left: 100px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
     color: #727272;
     width: 430px;
+    text-align: justify;
 }
 
 .lorem_text{
     text-align: center;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
     color: #727272;
     width: 430px;
-    margin: 40px auto 80px auto;
+    margin: 40px auto 0px auto;
 }
 
 .button{
@@ -100,11 +112,6 @@ h1{
     width: 225px;
     height: 65px;
     background: #34547A;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
     text-align: center;
     letter-spacing: 0.1em;
     color: #FFFFFF;
@@ -115,11 +122,12 @@ h1{
     cursor: pointer;
  }
 
+.about{
+    padding: 70px 0px;
+}
+
 .about_me{
     text-align: center;
-    margin-top: 70px;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 37px;
@@ -155,8 +163,6 @@ h1{
 }
 
 .project_header{
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
@@ -164,11 +170,6 @@ h1{
 }
 
 .project_text{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
     color: #FFFFFF;
 }
 
@@ -179,50 +180,41 @@ h1{
 .skill_text_block{
     display: inline-block;
     padding-left: 150px;
-    padding-top: 90px;
+    padding-top: 80px;
+    width: 30%;
 }
 
-.line_1{
-    position: absolute;
-    width: 350px;
+.progress-bar{
+    width: 100%;
+    background-color: #C4C4C4;
+    border-radius: 8px;
     height: 3px;
-    background: #C4C4C4;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
-.line_2{
-    position: absolute;
-    width: 300px;
+.bar{
+    display: block;
     height: 3px;
-    background: #34547A;
+    width: 80%;
+    background-color: #34547A;
     margin-top: 15px;
 }
 
 .skill_img_block{
-    display: inline-block;
     float: right;
-    width: 405px;
-    height: 300px;
     padding-top: 50px;
-    padding-right: 100px;
+    padding-right: 70px;
 }
 
 .my_skill{
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 37px;
 }
 
 .skill_item{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
     color: #727272; 
-    padding-top: 40px;   
+    padding-top: 30px;   
 }
 
 .skill_img{
@@ -232,26 +224,18 @@ h1{
 
 .work{
     background: #EEEFF1;
-    padding-bottom: 50px;
+    padding: 50px 0px;
 }
 
 .work_header{
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 37px;
     text-align: center;
-    padding-top: 50px;
 }
 
 .work_text{
     text-align: center;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
     color: #727272;
     width: 430px;
     margin: 40px auto;
@@ -274,26 +258,46 @@ h1{
     position: absolute;
 }
 
+.play_button:hover{
+    cursor: pointer;
+}
+
 .pict_block{
     display: inline-block;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .pict_view{
-    align-items: center;
-    display: flex;
-    justify-content: center;
     float: left;
-}
-
-.view_img{
-    position: absolute;
 }
 
 .pict_item{
     width: 275px;
     height: 275px;
     float: left;
+}
+
+figure {
+    position: relative;
+  }
+    
+figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(78, 107, 137, 0.7);
+    opacity: 0;
+    transition: opacity .7s;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+  
+figure:hover figcaption {
+    opacity: 1;
 }
 
 .microsoft_block{
@@ -314,25 +318,17 @@ h1{
 
 .form{
     background: #EEEFF1;
-    padding-bottom: 50px;
+    padding: 70px 0px 50px 0px
 }
 
 .form_header_title{
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 37px;
     text-align: center;
-    padding-top: 70px;
 }
 
 .form_header_text{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
     text-align: center;
     color: #727272;
     margin: 40px auto;
@@ -353,6 +349,10 @@ input[name="name"], input[name="email"]{
     padding-left: 10px;
 }
 
+input[name="submit"]:hover{
+    cursor: pointer;
+}
+
 textarea{
     width: 410px;
     margin-top: 20px;
@@ -362,9 +362,6 @@ textarea{
 }
 
 ::placeholder{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 23px;
     color: #5F5D5D;
@@ -377,9 +374,6 @@ input[name="text"]{
 }
 
 input[type="submit"]{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 23px;
     text-align: center;
@@ -402,8 +396,6 @@ input[type="submit"]{
 }
 
 .footer_name{
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
@@ -411,9 +403,6 @@ input[type="submit"]{
 }
 
 .footer_text{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 13px;
     line-height: 21px;
     color: #FFFFFF;
